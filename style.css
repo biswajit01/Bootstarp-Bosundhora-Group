@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300;900;500&display=swap');
 
-.
+
 body{
     background-color: #ddd !important;
 }
@@ -73,10 +73,10 @@ body{
     font-size: 14px;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
-.read-btn{
-    padding-top: 10px;
+.read-btn {
+    padding-top: 18px;
     width: 240px;
-    height: 50px;
+    height: 62px;
     margin: 0 auto;
     text-align: center;
     transition: 0.3s;
@@ -105,12 +105,30 @@ body{
 
 
 
+/* file Corporate-profile */
 
+.Corporate-img {
+    margin: 0 auto !important;
+    display: block;
+    width: 1110px;
+}
 
-
-
-
-
+.born {
+    font-size: 20px;
+    font-weight: bolder;
+    color: red;
+    padding: 47px 77px;
+    border-left: 10px solid #F5898D;
+    background-color: #FDE9EA;
+    margin-bottom: 50px;
+}
+.born p{
+    margin-bottom: 1rem;
+}
+.born p.last-p {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
 
 
 
